@@ -2,7 +2,7 @@ var ineed = require('ineed')
 var http = require('http');
 const request = require('request');
 const stripHtml = require("string-strip-html");
-
+var port = process.env.PORT || 8080;
 function transformToJson(words){
   let markers = words.split("var marker")
   let icons = words.split("var icon")
@@ -107,5 +107,5 @@ http.createServer(function (_req, _res) {
       _res.write(JSON.stringify(results));
       _res.end();
   });
-}).listen(234);
-console.log('Server at localhost')
+}).listen(port);
+console.log('Our app is running on http://localhost:' + port);
