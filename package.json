@@ -16,5 +16,8 @@
   "dependencies": {
     "ineed": "^1.1.0",
     "string-strip-html": "^4.3.17"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
