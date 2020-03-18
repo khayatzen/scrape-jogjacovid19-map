@@ -10,7 +10,6 @@ This project scraping from [Map Covid-19 DIY](https://corona.jogjaprov.go.id/map
 
 Open http://localhost:8080
 
-##Author
+## Author
 
-Muhammad Khayat
-khayatzen@gmail.com
+Muhammad Khayat [khayatzen@gmail.com]
