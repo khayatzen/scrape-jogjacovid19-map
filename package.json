@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "ineed": "^1.1.0",
+    "request": "^2.88.2",
     "string-strip-html": "^4.3.17"
   },
   "engines": {
