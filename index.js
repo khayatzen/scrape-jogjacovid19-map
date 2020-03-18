@@ -107,5 +107,5 @@ http.createServer(function (_req, _res) {
       _res.write(JSON.stringify(results));
       _res.end();
   });
-}).listen(8080);
-console.log('Server at localhost:8080')
+}).listen(80);
+console.log('Server at localhost')
