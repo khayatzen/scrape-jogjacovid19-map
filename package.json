@@ -1,0 +1,20 @@
+{
+  "name": "scrape-jogjacovid19-map",
+  "version": "0.0.1",
+  "description": "Ambil data feature layer covid19 Yogyakarta",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jogja",
+    "covid19",
+    "scrape"
+  ],
+  "author": "Muhammad Khayat",
+  "license": "ISC",
+  "dependencies": {
+    "ineed": "^1.1.0",
+    "string-strip-html": "^4.3.17"
+  }
+}
